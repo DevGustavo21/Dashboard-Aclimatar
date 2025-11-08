@@ -1,0 +1,12 @@
+{
+  "name": "aclimatar-dashboard",
+  "version": "1.0.0",
+  "description": "Aclimatar Dashboard with Sass",
+  "scripts": {
+    "build-css": "sass assets/scss/dashboard.scss dashboard.css",
+    "watch-css": "sass --watch assets/scss/dashboard.scss:dashboard.css"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}

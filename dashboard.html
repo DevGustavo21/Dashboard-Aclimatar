@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aclimatar Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <section class="dashboard container--wrapper">
+      <div class="dashboard__container">
+        <!-- Header Section -->
+        <div class="dashboard__header">
+          <h2 class="dashboard__title">Solutions Dashboard</h2>
+
+          <!-- Desktop Actions -->
+          <div class="dashboard__actions desktop-actions">
+            <button class="dashboard__action-btn btn btn-primary">
+              Export Chart
+              <img
+                src="assets/icons/arrow-down.svg"
+                alt="Export Chart"
+                class="dashboard__action-icon"
+              />
+            </button>
+            <button class="dashboard__action-btn btn btn-secondary">
+              Export Table
+              <img
+                src="assets/icons/arrow-down.svg"
+                alt="Export Table"
+                class="dashboard__action-icon"
+              />
+            </button>
+          </div>
+
+          <!-- Mobile Actions -->
+          <div class="dashboard__mobile-actions mobile-actions">
+            <span class="dashboard__mobile-title"
+              >Export Options
+              <img
+                src="assets/icons/dots.svg"
+                alt="Export Options"
+                class="dashboard__mobile-icon"
+              />
+            </span>
+
+            <div class="dashboard__mobile-dropdown">
+              <button class="dashboard__mobile-dropdown-item">
+                <div class="dashboard__mobile-dropdown-content">
+                  <span class="dashboard__mobile-dropdown-title">
+                    Export Chart
+                    <img
+                      src="assets/icons/arrow-down-blue.svg"
+                      alt="Export Chart"
+                      class="dashboard__mobile-dropdown-icon"
+                    />
+                  </span>
+                  <p class="dashboard__mobile-dropdown-desc">
+                    (Download a full version of all elements)
+                  </p>
+                </div>
+              </button>
+              <button class="dashboard__mobile-dropdown-item">
+                <div class="dashboard__mobile-dropdown-content">
+                  <span class="dashboard__mobile-dropdown-title">
+                    Export bookmarked
+                    <img
+                      src="assets/icons/arrow-down-blue.svg"
+                      alt="Export Chart"
+                      class="dashboard__mobile-dropdown-icon"
+                    />
+                  </span>
+                  <p class="dashboard__mobile-dropdown-desc">
+                    (Download a chart content only including bookmarked
+                    elements)
+                  </p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alert Section -->
+        <div class="dashboard__alert">
+          <div class="dashboard__alert-content">
+            <img
+              src="assets/icons/alert.svg"
+              alt="Alert"
+              class="dashboard__alert-icon"
+            />
+            <p class="dashboard__alert-text">
+              <strong>Save for export:</strong>
+              <i
+                >Tellus turpis habitasse netus feugiat congue curae mollis
+                ligula, integer non eros vel potenti fermentum interdum primis
+                magna, porta quisque proin mauris magnis tempor faucibus. Aciti
+                ornare et cras netus cum. Dictumst est aliquam curabitur euismod
+                purus accumsan sociosqu sollicitudin pretium massa, quis nullam
+                arcu laoreet.</i
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="dashboard__content">
+          <!-- Impact Gradient Section (Left) -->
+          <div class="dashboard__impact">
+            <h3 class="dashboard__impact-header main-title">
+              Impact Gradient:
+            </h3>
+
+            <div class="dashboard__impact-content">
+              <div class="dashboard__impact-title yellow-solution">
+                Systemic adaptation need
+              </div>
+
+              <div class="dashboard__impact-list">
+                <!-- Impact Item 1 -->
+                <div class="dashboard__impact-item">
+                  <div class="dashboard__impact-item-header">
+                    <span class="dashboard__impact-item-title"
+                      >Income diversification off-field and off-farm</span
+                    >
+                    <img
+                      src="assets/icons/save-icon.svg"
+                      alt="Save Icon"
+                      class="save-icon dashboard__impact-item-icon"
+                      data-save-icon
+                    />
+                  </div>
+
+                  <ul class="dashboard__impact-item-body">
+                    <li class="dashboard__impact-subitem">
+                      Diversification of coffee products
+                      <img
+                        src="assets/icons/save-icon-blue.svg"
+                        alt="Save Icon"
+                        class="save-icon save-icon-blue dashboard__impact-subitem-icon"
+                        data-save-icon
+                      />
+                    </li>
+                    <li class="dashboard__impact-subitem">
+                      Non-coffee diversification and alternative income sources
+                      <img
+                        src="assets/icons/save-icon-blue.svg"
+                        alt="Save Icon"
+                        class="save-icon save-icon-blue dashboard__impact-subitem-icon"
+                        data-save-icon
+                      />
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Impact Item 2 -->
+                <div class="dashboard__impact-item">
+                  <div class="dashboard__impact-item-header">
+                    <span class="dashboard__impact-item-title">
+                      Income diversification on-field</span
+                    >
+                    <img
+                      src="assets/icons/save-icon.svg"
+                      alt="Save Icon"
+                      class="save-icon dashboard__impact-item-icon"
+                      data-save-icon
+                    />
+                  </div>
+
+                  <ul class="dashboard__impact-item-body">
+                    <li class="dashboard__impact-subitem">
+                      Intercropping
+                      <img
+                        src="assets/icons/save-icon-blue.svg"
+                        alt="Save Icon"
+                        class="save-icon save-icon-blue dashboard__impact-subitem-icon"
+                        data-save-icon
+                      />
+                    </li>
+                    <li class="dashboard__impact-subitem">
+                      Multifunctional shade trees (hazard protection, income
+                      opportunity)
+                      <img
+                        src="assets/icons/save-icon-blue.svg"
+                        alt="Save Icon"
+                        class="save-icon save-icon-blue dashboard__impact-subitem-icon"
+                        data-save-icon
+                      />
+                    </li>
+                    <li class="dashboard__impact-subitem">
+                      Temporary shade
+                      <img
+                        src="assets/icons/save-icon-blue.svg"
+                        alt="Save Icon"
+                        class="save-icon save-icon-blue dashboard__impact-subitem-icon"
+                        data-save-icon
+                      />
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Impact Item 3 -->
+                <div class="dashboard__impact-item">
+                  <div class="dashboard__impact-item-header">
+                    <span class="dashboard__impact-item-title">
+                      Building up climate resilience (see your risk mitigation
+                      options)</span
+                    >
+                    <img
+                      src="assets/icons/save-icon.svg"
+                      alt="Save Icon"
+                      class="save-icon dashboard__impact-item-icon"
+                      data-save-icon
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mitigation Section (Right) -->
+          <div class="dashboard__mitigation">
+            <h3 class="dashboard__mitigation-header main-title">
+              Climate risk and Hazard mitigation options:
+            </h3>
+
+            <div class="dashboard__mitigation-content">
+              <div class="dashboard__mitigation-wrapper">
+                <!-- Desktop Tabs -->
+                <div class="dashboard__tabs">
+                  <button
+                    class="dashboard__tab-btn active-tab"
+                    data-tab="nursery"
+                  >
+                    Nursery and renewal
+                  </button>
+                  <button class="dashboard__tab-btn" data-tab="onfield">
+                    On-field
+                  </button>
+                  <button class="dashboard__tab-btn" data-tab="postharvest">
+                    Post-harvesting
+                  </button>
+                  <button class="dashboard__tab-btn" data-tab="community">
+                    Community and landscape level
+                  </button>
+                </div>
+
+                <!-- Desktop Tab Content -->
+                <div class="desktop-tabs-content">
+                  <!-- Nursery Tab -->
+                  <div
+                    class="dashboard__tab-content active"
+                    data-content="nursery"
+                  >
+                    <!-- Risk Section 1 -->
+                    <div class="dashboard__risk-section high-status">
+                      <div class="dashboard__risk-section-header">
+                        <h4 class="dashboard__risk-title">
+                          Nursery and Renewal Content
+                        </h4>
+                        <span class="dashboard__risk-status">High</span>
+                      </div>
+
+                      <div class="dashboard__cards">
+                        <!-- Card 1 -->
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Assure for good root development
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Nursery and Renewal Content
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">Biochar</h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Symbiotic fungi (Mycorrhizae, Trichoderma, etc.)
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Store water for periods of drought
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Water harvesting
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Be able to manage delayed on-set of rains
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Larger growing bags
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Capacity to sustain seedlings longer in nursery
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Consider irrigation systems
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Irrigation systems with water bottles
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Irrigation systems with bamboo sticks
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Drip irrigation
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Improved varieties
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Drought tolerant varieties
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">Grafting</h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Risk Section 2 -->
+                    <div class="dashboard__risk-section high-status">
+                      <div class="dashboard__risk-section-header">
+                        <h4 class="dashboard__risk-title">Rain risk</h4>
+                        <span class="dashboard__risk-status">High</span>
+                      </div>
+
+                      <div class="dashboard__cards">
+                        <!-- Card 1 -->
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Protection from physical impact of rain
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Roofing system/shade nets
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Manage humidity to avoid fungal diseases
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Pest and/or disease tolerant varieties
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Temperature risk Section 3 -->
+                    <div class="dashboard__risk-section low-status">
+                      <div class="dashboard__risk-section-header">
+                        <h4 class="dashboard__risk-title">Temperature risk</h4>
+                        <span class="dashboard__risk-status">Low</span>
+                      </div>
+
+                      <div class="dashboard__cards">
+                        <!-- Card 1 -->
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Consider irrigation systems
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Irrigation and/or water harvesting for nursery
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Assure for shading
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">Shade nets</h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Card 3 -->
+
+                        <div class="dashboard__card">
+                          <div class="dashboard__card-header">
+                            <h5 class="dashboard__card-title">
+                              Manage new and emerging P&D
+                            </h5>
+                            <img
+                              src="assets/icons/save-icon.svg"
+                              alt="Save Icon"
+                              class="save-icon dashboard__card-icon"
+                              data-save-icon
+                            />
+                          </div>
+
+                          <div class="dashboard__card-list">
+                            <div class="dashboard__card-item">
+                              <h6 class="dashboard__card-item">
+                                Pest and/or disease tolerant varieties
+                              </h6>
+                              <img
+                                src="assets/icons/save-icon-blue.svg"
+                                alt="Save Icon"
+                                class="save-icon save-icon-blue dashboard__card-item-icon"
+                                data-save-icon
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Other Tabs -->
+                  <div class="dashboard__tab-content" data-content="onfield">
+                    <div class="dashboard__risk-section">
+                      <h4>On-field Content</h4>
+                    </div>
+                  </div>
+
+                  <div
+                    class="dashboard__tab-content"
+                    data-content="postharvest"
+                  >
+                    <div class="dashboard__risk-section">
+                      <h4>Post-harvesting Content</h4>
+                    </div>
+                  </div>
+
+                  <div class="dashboard__tab-content" data-content="community">
+                    <div class="dashboard__risk-section">
+                      <h4>Community and Landscape Level Content</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mobile Tab Content -->
+                <div class="mobile-tabs-container">
+                  <!-- Mobile Tab Group 1: Nursery -->
+                  <div class="mobile-tab-group">
+                    <button
+                      class="mobile-tab-button active"
+                      data-mobile-tab="nursery"
+                    >
+                      Nursery and renewal
+                    </button>
+                    <div
+                      class="mobile-tab-content active"
+                      data-mobile-content="nursery"
+                    >
+                      <!-- Mobile Risk Section 1 -->
+                      <div class="mobile-risk-section high-status">
+                        <div class="mobile-risk-header">
+                          <h4 class="mobile-risk-header-title">Drought risk</h4>
+                          <span class="mobile-risk-header-status">High</span>
+                        </div>
+
+                        <div class="mobile-cards">
+                          <!-- Mobile Card 1 -->
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Assure for good root development
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Keep seedlings more time in nursery
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">Biochar</h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Symbiotic fungi (Mycorrhizae, Trichoderma,
+                                  etc.)
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Mobile Card 2 -->
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Store water for periods of drought
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Water harvesting
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Mobile Card 3 -->
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Consider irrigation systems
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Irrigation systems with water bottles
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Irrigation systems with bamboo sticks
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Drip irrigation
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Mobile Card 4 -->
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Be able to manage delayed on-set of rains
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Larger growing bags
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Capacity to sustain seedlings longer in
+                                  nursery
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Mobile Card 5 -->
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Improved varieties
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Drought tolerant varieties
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">Grafting</h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Mobile Risk Section 2 -->
+                      <div class="mobile-risk-section high-status">
+                        <div class="mobile-risk-header">
+                          <h4 class="mobile-risk-header-title">Rain Risk</h4>
+                          <span class="mobile-risk-header-status">Low</span>
+                        </div>
+
+                        <div class="mobile-cards">
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Protection from physical impact of rain
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Roofing system/shade nets
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Manage humidity to avoid fungal diseases
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Pest and/or disease tolerant varieties
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Mobile Risk Section 3 -->
+                      <div class="mobile-risk-section low-status">
+                        <div class="mobile-risk-header">
+                          <h4 class="mobile-risk-header-title">
+                            Temperature risk
+                          </h4>
+                          <span class="mobile-risk-header-status">Low</span>
+                        </div>
+
+                        <div class="mobile-cards">
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Consider irrigation systems
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Irrigation and/or water harvesting for nursery
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Assure for shading
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Shade nets
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="mobile-card">
+                            <div class="mobile-card-header">
+                              <h5 class="mobile-card-title">
+                                Manage new and emerging P&D
+                              </h5>
+                              <img
+                                src="assets/icons/save-icon.svg"
+                                alt="Save Icon"
+                                class="save-icon mobile-card-icon"
+                                data-save-icon
+                              />
+                            </div>
+
+                            <div class="mobile-card-list">
+                              <div class="mobile-card-item">
+                                <h6 class="mobile-card-item-title">
+                                  Pest and/or disease tolerant varieties
+                                </h6>
+                                <img
+                                  src="assets/icons/save-icon-blue.svg"
+                                  alt="Save Icon"
+                                  class="save-icon save-icon-blue mobile-card-item-icon"
+                                  data-save-icon
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Mobile Tab Group 2: On-field -->
+                  <div class="mobile-tab-group">
+                    <button class="mobile-tab-button" data-mobile-tab="onfield">
+                      On-field
+                    </button>
+                    <div
+                      class="mobile-tab-content"
+                      data-mobile-content="onfield"
+                      style="display: none"
+                    >
+                      <div class="dashboard__risk-section">
+                        <h4>On-field Content</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Mobile Tab Group 3: Post-harvesting -->
+                  <div class="mobile-tab-group">
+                    <button
+                      class="mobile-tab-button"
+                      data-mobile-tab="postharvest"
+                    >
+                      Post-harvesting
+                    </button>
+                    <div
+                      class="mobile-tab-content"
+                      data-mobile-content="postharvest"
+                      style="display: none"
+                    >
+                      <div class="dashboard__risk-section">
+                        <h4>Post-harvesting Content</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Mobile Tab Group 4: Community -->
+                  <div class="mobile-tab-group">
+                    <button
+                      class="mobile-tab-button"
+                      data-mobile-tab="community"
+                    >
+                      Community and landscape level
+                    </button>
+                    <div
+                      class="mobile-tab-content"
+                      data-mobile-content="community"
+                      style="display: none"
+                    >
+                      <div class="dashboard__risk-section">
+                        <h4>Community and Landscape Level Content</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>
